@@ -1,0 +1,18 @@
+nome = input('Qual seu nome? ')
+CPF = input('Qual seu CPF? ')
+idade = input('Qual sua idade? ')
+altura = input('Qual sua altura? ')
+telefone = input('Qual seu telefone? ')
+
+rua = input('Nome da rua: ')
+numeroCasa = input('Número da casa: ')
+estado = input('Estado que mora: ')
+cidade = input('Cidade que mora: ')
+bairro = input('Bairro que mora: ')
+
+print(nome, 'do CPF', CPF, 'idade', idade, 'anos, com a altura de', altura, 'e telefone', telefone, 'Mora no endereço abaixo: ')
+print('Rua:', rua)
+print('Número da casa:', numeroCasa)
+print('Estado:', estado)
+print('Cidade:', cidade)
+print('Bairro:', bairro)
